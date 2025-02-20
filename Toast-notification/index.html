@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Toast Notification Component - FrontendPro Challenge</title>
+  </head>
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <button
+        class="success"
+        onclick="showToast('success', 'Success toast notification')"
+      >
+        Success
+      </button>
+      <button
+        class="info"
+        onclick="showToast('info', 'Info toast notification')"
+      >
+        Info
+      </button>
+      <button
+        class="warning"
+        onclick="showToast('warning', 'Warning toast notification')"
+      >
+        Warning
+      </button>
+      <button
+        class="error"
+        onclick="showToast('error', 'Error toast notification')"
+      >
+        Error
+      </button>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
